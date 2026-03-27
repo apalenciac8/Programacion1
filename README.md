@@ -3,10 +3,15 @@ Este repositorio está dedicado a la recopilación y organización de tareas rea
 Cada carpeta o archivo corresponde a una tarea específica, estructurada de manera clara para su fácil comprensión y acceso.
 
 ```
-╔══════════════════════════════════════╗
-║                                      ║
-║         🙏 PÓNGAME 10 INGE 🙏       ║
-║              NO SEA MALO             ║
-║                                      ║
-╚══════════════════════════════════════╝
+╔══════════════════════════════════════════╗
+║      Criterio para calificar Tareas      ║
+╠══════════════════════════════════════════╣
+║ if (nota != 10) {                        ║
+║     rechazar();                          ║
+║ } else {                                 ║
+║     aceptar();                           ║
+║ }                                        ║
+║                                          ║
+║ // Nota menor a 10 = No se acepta        ║
+╚══════════════════════════════════════════╝
 ```
