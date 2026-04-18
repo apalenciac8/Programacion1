@@ -6,7 +6,6 @@
 // Provee acceso al objeto de conexión para que los repositorios ejecuten queries.
 class Database {
 public:
-    // connection_string: "host=localhost dbname=demo user=postgres password=secret"
     explicit Database(const std::string& connection_string);
     ~Database() = default;
 
