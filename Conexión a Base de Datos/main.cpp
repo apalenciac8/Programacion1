@@ -19,8 +19,6 @@ void printUsers(const std::vector<User>& users) {
 
 int main() {
     // ── Configuración de conexión ────────────────────────────────────────────
-    // Ajusta estos valores a tu entorno. También puedes usar variables de
-    // entorno con: std::getenv("DB_HOST"), etc.
     const std::string conn_str =
         "host=localhost "
         "port=5432 "
